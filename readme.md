@@ -1,4 +1,4 @@
-# pyvdwsurface Example Repository
+# Windows x64 pre-compiled pyvdwsurface
 
 This repository demonstrates how to use the pre-compiled `pyvdwsurface` Python library to generate Van der Waals (VDW) surfaces from XYZ files and visualize them with Plotly.
 
