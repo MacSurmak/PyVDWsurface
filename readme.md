@@ -55,8 +55,8 @@ If the pre-compiled wheel is not suitable for your system, you can compile `pyvd
 1.  **Download this repository (if you haven't already):**
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/pyvdwsurface-example.git
-    cd pyvdwsurface-example
+    git clone https://github.com/MacSurmak/PyVDWsurface.git
+    cd PyVDWsurface
     ```
 
 2.  **Navigate to the repository root directory** (where `setup.py` is located).
