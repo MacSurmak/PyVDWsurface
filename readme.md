@@ -91,7 +91,7 @@ If the pre-compiled wheel is not suitable for your system, you can compile `pyvd
 *   **Windows:**
     *   Ensure you have Microsoft Visual C++ Build Tools installed and that the `cl.exe` compiler is in your system's PATH.
     *   You might encounter warnings during compilation (like `warning C4551`, `warning C4244`, `warning C4101`). These warnings in the provided example are generally safe to ignore, but always review warnings carefully in your own projects.
-    *   If you encounter errors related to `rand_r` (identifier not found), this is because `rand_r` is not a standard Windows function. The provided source code has been modified to use `rand()` as a workaround for Windows compatibility. For more robust random number generation on Windows, consider using `rand_s` or the `<random>` library as described in previous discussions.
+    *   If you encounter errors related to `rand_r` (identifier not found) with the source library code, this is because `rand_r` is not a standard Windows function. The provided source code has been modified to use `rand()` as a workaround for Windows compatibility. For more robust random number generation on Windows, consider using `rand_s` or the `<random>` library as implemented here.
 
 *   **Linux & macOS:**
     *   Make sure you have the Python development headers installed (e.g., `python3-dev` on Debian/Ubuntu, `xcode-select --install` on macOS).
