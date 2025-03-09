@@ -114,7 +114,7 @@ If the pre-compiled wheel is not suitable for your system, you can compile `pyvd
    python example.py
    ```
 
-   This will execute the `example_script.py` Python script, which performs the following actions:
+   This will execute the `example.py` Python script, which performs the following actions:
 
    *   **Reads XYZ File:** Reads atomic coordinates and element types from the `CAN.xyz` file located in the `example/` directory.
    *   **Generates VDW Surface:** Calculates the Van der Waals surface points for the molecule defined in `CAN.xyz` using the `pyvdwsurface` library.
@@ -123,11 +123,11 @@ If the pre-compiled wheel is not suitable for your system, you can compile `pyvd
    *   **Saves Plot as HTML:** Saves the interactive plot as an HTML file named `vdw_surface_plot.html` in the `example/` directory. You can open this file in any web browser to view and interact with the 3D plot.
    *   **Opens Plot in Browser:** Automatically opens the `vdw_surface_plot.html` file in your default web browser, allowing you to immediately explore the interactive 3D visualization.
 
-   After running the script, you should see the `vdw_surface_plot.html` file open in your browser, displaying the interactive 3D plot of the VDW surface. You will also find `vdw_surface_plot.png` and `vdw_surface_points.xyz` in the `example/` directory.
+   After running the script, you should see the `vdw_surface_plot.html` file open in your browser, displaying the interactive 3D plot of the VDW surface. You will also find `vdw_surface_points.xyz` in the `example/` directory.
 
 ## Understanding `generate_vdw_surface_from_xyz` Function Parameters
 
-The `example_script.py` uses the `generate_vdw_surface_from_xyz` function to perform the VDW surface generation and plotting. Here's a breakdown of the parameters you can customize:
+The `example.py` uses the `generate_vdw_surface_from_xyz` function to perform the VDW surface generation and plotting. Here's a breakdown of the parameters you can customize:
 
 ```python
 generate_vdw_surface_from_xyz(xyz_filepath, output_xyz_file=None, density=1.0, scale_factor=1.0, plot_filepath=None, open_plot=False, seed=None)
