@@ -6,6 +6,10 @@ This repository demonstrates how to use the pre-compiled `pyvdwsurface` Python l
 
 *Example VDW surface plot generated for the test molecule (CAN.xyz) using `pyvdwsurface`.*
 
+![PyMol VDW surface visualisation](example/pymol_vdw_surface_plot.png)
+
+*Example VDW surface visualised with PyMol for CAN.xyz.*
+
 ## Original Project
 
 The `pyvdwsurface` library itself is based on an open-source C++ implementation for calculating Van der Waals surfaces.  While this example repository provides a pre-compiled version, the original source code and more detailed information about the underlying algorithm might be available at the https://github.com/rmcgibbo/pyvdwsurface.  Please refer to the original project for licensing information, source code, and potentially more advanced usage details.
